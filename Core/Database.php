@@ -1,0 +1,19 @@
+<?php
+
+class Database{
+    const HOST='localhost';
+    const USER_NAME='root';
+    const PASS_WORD='';
+    const DB_NAME ='phpclass';
+
+    public function connect()
+    {
+         $connect=mysqli_connect(self::HOST,self::USER_NAME,self::PASS_WORD,self::DB_NAME);
+         mysqli_set_charset($connect,"utf8");
+         if(mysqli_connect_errno()===0)
+         {
+            return $connect;
+         }
+         return false;
+    }
+}

@@ -1,0 +1,24 @@
+ .navbar-fixed-bottom.float-right {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+i.fas.fa-chevron-up {
+    background: #007bff;
+    padding: 9px;
+    color: white;
+
+}
+
+a.nutlen.hienthi{
+    opacity: 1;
+}
+
+a.nutlen{
+   /* border-radius: 50%; */
+   opacity: 0;
+   transition: 0.5s;
+
+}
+
